@@ -3,5 +3,9 @@ class school
     @name = name
   end
   
+  def name
+    @name
+  end
+  
   school.roster = {}
 end
